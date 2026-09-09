@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://altstadtapartments-dinkelsbuehl.de/sitemap.xml
