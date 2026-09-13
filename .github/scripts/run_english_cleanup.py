@@ -1,2 +1,6 @@
-import runpy
-runpy.run_path('.github/scripts/complete_english_cleanup.py', run_name='__main__')
+from pathlib import Path
+
+script_path = Path('.github/scripts/complete_english_cleanup.py')
+source = script_path.read_text(encoding='utf-8')
+source = source.replace("    ' und ', ", "")
+exec(compile(source, str(script_path), 'exec'), {'__name__': '__main__'})
