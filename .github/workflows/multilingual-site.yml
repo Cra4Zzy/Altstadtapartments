@@ -1,0 +1,31 @@
+name: Multilingual DE EN site
+
+on:
+  push:
+    paths:
+      - '.github/scripts/build_multilingual.py'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.event.head_commit.message != 'Add German English multilingual experience'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Build multilingual experience
+        run: python .github/scripts/build_multilingual.py
+      - name: Commit multilingual site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html altstadtapartment.html designapartment.html dinkelsbuehl.html buchen.html assets/css/style.css assets/js/language.js en/
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "Add German English multilingual experience"
+          git push
