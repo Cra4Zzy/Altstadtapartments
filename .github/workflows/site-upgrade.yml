@@ -1,0 +1,31 @@
+name: Altstadt SEO GEO Upgrade
+
+on:
+  push:
+    paths:
+      - '.github/scripts/upgrade_site.py'
+
+permissions:
+  contents: write
+
+jobs:
+  upgrade:
+    if: github.event.head_commit.message != 'Apply Altstadt SEO GEO upgrade'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Apply website upgrade
+        run: python .github/scripts/upgrade_site.py
+      - name: Commit upgraded site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html altstadtapartment.html designapartment.html dinkelsbuehl.html buchen.html impressum.html datenschutz.html agb.html assets/css/style.css assets/js/main.js robots.txt sitemap.xml llms.txt SEO-LAUNCH-CHECKLIST.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Apply Altstadt SEO GEO upgrade"
+          git push
