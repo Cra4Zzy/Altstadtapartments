@@ -5,7 +5,6 @@
   const path = location.pathname;
   const isGitHubPages = location.hostname.endsWith('github.io');
 
-  // GitHub project pages live below /<repo>/ while the custom domain lives at /.
   const segments = path.split('/').filter(Boolean);
   const basePath = isGitHubPages && segments.length ? `/${segments[0]}` : '';
   const pathWithoutBase = basePath && path.startsWith(basePath)
@@ -38,7 +37,6 @@
     else location.href = target.href;
   };
 
-  // On first visit only: use browser language. A manual choice always wins afterwards.
   if (!saved && preferred !== current && !new URLSearchParams(location.search).has('langstay')) {
     navigateToLanguage(preferred, true);
     return;
@@ -47,16 +45,16 @@
   const header = document.querySelector('.site-header .header-actions');
   if (!header) return;
 
+  const flagBase = `${basePath}/assets/img/flags`;
   const wrap = document.createElement('div');
   wrap.className = 'language-switch';
   wrap.setAttribute('aria-label', current === 'de' ? 'Sprache wählen' : 'Choose language');
   wrap.innerHTML = `
-    <button type="button" data-lang="de" aria-pressed="${current === 'de'}" title="Deutsch">
-      <span class="lang-flag" aria-hidden="true">🇩🇪</span><span>DE</span>
+    <button type="button" class="language-flag${current === 'de' ? ' is-active' : ''}" data-lang="de" aria-label="Deutsch" title="Deutsch">
+      <img src="${flagBase}/de.svg" alt="" aria-hidden="true">
     </button>
-    <span class="lang-divider" aria-hidden="true"></span>
-    <button type="button" data-lang="en" aria-pressed="${current === 'en'}" title="English">
-      <span class="lang-flag" aria-hidden="true">🇬🇧</span><span>EN</span>
+    <button type="button" class="language-flag${current === 'en' ? ' is-active' : ''}" data-lang="en" aria-label="English" title="English">
+      <img src="${flagBase}/en.svg" alt="" aria-hidden="true">
     </button>`;
 
   header.insertBefore(wrap, header.querySelector('.menu-button'));
