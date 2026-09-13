@@ -1,27 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://altstadtapartments-dinkelsbuehl.de/</loc>
-  </url>
-  <url>
-    <loc>https://altstadtapartments-dinkelsbuehl.de/altstadtapartment.html</loc>
-  </url>
-  <url>
-    <loc>https://altstadtapartments-dinkelsbuehl.de/designapartment.html</loc>
-  </url>
-  <url>
-    <loc>https://altstadtapartments-dinkelsbuehl.de/dinkelsbuehl.html</loc>
-  </url>
-  <url>
-    <loc>https://altstadtapartments-dinkelsbuehl.de/buchen.html</loc>
-  </url>
-  <url>
-    <loc>https://altstadtapartments-dinkelsbuehl.de/impressum.html</loc>
-  </url>
-  <url>
-    <loc>https://altstadtapartments-dinkelsbuehl.de/datenschutz.html</loc>
-  </url>
-  <url>
-    <loc>https://altstadtapartments-dinkelsbuehl.de/agb.html</loc>
-  </url>
+  <url><loc>https://altstadtapartments-dinkelsbuehl.de/</loc><lastmod>2026-09-13</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://altstadtapartments-dinkelsbuehl.de/altstadtapartment.html</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://altstadtapartments-dinkelsbuehl.de/designapartment.html</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://altstadtapartments-dinkelsbuehl.de/dinkelsbuehl.html</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://altstadtapartments-dinkelsbuehl.de/buchen.html</loc><lastmod>2026-09-13</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://altstadtapartments-dinkelsbuehl.de/impressum.html</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://altstadtapartments-dinkelsbuehl.de/datenschutz.html</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://altstadtapartments-dinkelsbuehl.de/agb.html</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
