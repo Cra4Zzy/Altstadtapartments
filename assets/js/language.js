@@ -1,6 +1,13 @@
 (() => {
   'use strict';
 
+  // Keep the visible URL clean even when somebody opens index.html directly.
+  // Example: /Altstadtapartments/index.html#fragen -> /Altstadtapartments/#fragen
+  if (/\/index\.html$/.test(location.pathname)) {
+    const cleanPath = location.pathname.replace(/index\.html$/, '');
+    history.replaceState(null, '', `${cleanPath}${location.search}${location.hash}`);
+  }
+
   const KEY = 'altstadt-language';
   const path = location.pathname;
   const isGitHubPages = location.hostname.endsWith('github.io');
