@@ -1,0 +1,30 @@
+name: Clean home links
+
+on:
+  push:
+    paths:
+      - '.github/scripts/clean_home_links.py'
+
+permissions:
+  contents: write
+
+jobs:
+  clean-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Clean internal home links
+        run: python .github/scripts/clean_home_links.py
+      - name: Commit clean links
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add *.html en/*.html
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "Use clean homepage URLs"
+          git push
