@@ -113,28 +113,9 @@
 })();
 
 ;(() => {
-  'use strict';
-  if (!document.body.classList.contains('home')) return;
-  for (const href of ['assets/css/variants.css','assets/css/gartenschau.css']) {
-    if (!document.querySelector(`link[href="${href}"]`)) {
-      const link=document.createElement('link');link.rel='stylesheet';link.href=href;document.head.append(link);
-    }
-  }
-  const choices={pur:'01 · Pur',sand:'02 · Sand',salbei:'03 · Salbei',terracotta:'04 · Terrakotta',fjord:'05 · Fjord'};
-  const params=new URLSearchParams(location.search);let saved;
-  try{saved=localStorage.getItem('altstadt-design-v2')}catch{}
-  const apply=(key,updateUrl=false)=>{
-    document.documentElement.dataset.theme=key;
-    try{localStorage.setItem('altstadt-design-v2',key)}catch{}
-    document.querySelectorAll('[data-set-theme]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.setTheme===key)));
-    document.querySelector('meta[name="theme-color"]')?.setAttribute('content','#ffffff');
-    if(updateUrl){const u=new URL(location.href);u.searchParams.set('theme',key);history.replaceState(null,'',u)}
-  };
-  const preview=location.hostname.includes('github.io')||['localhost','127.0.0.1'].includes(location.hostname)||location.protocol==='file:';
-  if(!preview){apply(choices[params.get('theme')]?params.get('theme'):(choices[saved]?saved:'pur'));return;}
-  const box=document.createElement('details');box.className='theme-preview';box.open=innerWidth>600;
-  box.innerHTML='<summary>Designvarianten ansehen</summary><div class="theme-preview__options">'+Object.entries(choices).map(([k,v])=>`<button type="button" data-set-theme="${k}">${v}</button>`).join('')+'</div><small>Drei helle Klassiker · zwei farbigere Entwürfe</small>';
-  document.body.append(box);
-  box.addEventListener('click',e=>{const b=e.target.closest('[data-set-theme]');if(b)apply(b.dataset.setTheme,true)});
-  apply(choices[params.get('theme')]?params.get('theme'):(choices[saved]?saved:'pur'));
+const choices={pur:'01 · Pur',sand:'02 · Sand',salbei:'03 · Salbei',terracotta:'04 · Terrakotta',fjord:'05 · Fjord'};
+const params=new URLSearchParams(location.search);let saved;try{saved=localStorage.getItem('altstadt-design-v2')}catch{}
+const apply=(key)=>{document.documentElement.dataset.theme=key;try{localStorage.setItem('altstadt-design-v2',key)}catch{};document.querySelectorAll('[data-set-theme]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.setTheme===key)));document.querySelector('meta[name="theme-color"]')?.setAttribute('content','#ffffff');};
+const box=document.createElement('details');box.className='theme-preview';box.open=innerWidth>600;box.innerHTML='<summary>Designvarianten ansehen</summary><div class="theme-preview__options">'+Object.entries(choices).map(([k,v])=>`<button type="button" data-set-theme="${k}">${v}</button>`).join('')+'</div><small>Drei helle Klassiker · zwei farbigere Entwürfe</small>';document.body.append(box);
+box.addEventListener('click',e=>{const b=e.target.closest('[data-set-theme]');if(b)apply(b.dataset.setTheme)});apply(choices[params.get('theme')]?params.get('theme'):(choices[saved]?saved:'pur'));
 })();

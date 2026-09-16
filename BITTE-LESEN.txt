@@ -1,0 +1,18 @@
+ALTSTADTAPARTMENTS – FÜNF DESIGNVARIANTEN
+
+ZIP vollständig entpacken und index.html öffnen.
+Unten links zwischen Pur, Sand, Salbei, Terrakotta und Fjord wechseln. Auf dem Handy die Auswahl aufklappen.
+Die Auswahl gilt auch auf Unterseiten. Die drei bisherigen Varianten bleiben reduziert. Terrakotta und Fjord ergänzen farbige Flächen und eigene Schriftkonzepte.
+Pur: geradlinig, große rechteckige Fotos, Steingrau.
+Sand: warme Akzente, Bogenmotiv, Serifenschrift.
+Salbei: dezentes Grün, klare Sans-Serifenschrift, umgekehrter Einstieg auf Desktop.
+
+Terrakotta: warmer Cremegrund, erdige Akzente, klassische Palatino-Typografie.
+Fjord: helle Blauflächen, Petrolakzente, klare Trebuchet-Typografie.
+Die Unterseite Dinkelsbühl erleben zeigt das neue Stadtmauer-Foto (Originaldatei, 1920 × 998 Pixel) als Hero-Hintergrund, auch in Englisch.
+
+Vor Veröffentlichung kann die Designauswahl aus assets/js/main.js entfernt und data-theme im HTML fest eingestellt werden.
+Inhalte, Buchungsanbieter und bestehende SEO-Angaben wurden übernommen.
+Google-Schrift und externe Buchungsseiten benötigen Internet.
+
+Die Abschnitte 01–03 enthalten kompakte Bilder zu Altstadt, Romantischer Straße und Kinderzeche.
