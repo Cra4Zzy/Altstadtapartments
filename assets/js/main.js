@@ -114,13 +114,27 @@
 
 ;(() => {
   'use strict';
-  // SEO-GEO-THEME-PREVIEW
-  const themes={warm:{label:'Warm & historisch',color:'#5b3b30'},nature:{label:'Natur & ruhig',color:'#26483f'},elegant:{label:'Elegant & klar',color:'#303238'}};
-  const params=new URLSearchParams(location.search),requested=params.get('theme'),stored=localStorage.getItem('altstadt-theme');
-  let active=themes[requested]?requested:(themes[stored]?stored:'warm');
-  const apply=(theme,updateUrl=false)=>{active=theme;document.documentElement.dataset.theme=theme;localStorage.setItem('altstadt-theme',theme);const meta=document.querySelector('meta[name="theme-color"]');if(meta)meta.content=themes[theme].color;if(updateUrl){const u=new URL(location.href);u.searchParams.set('theme',theme);history.replaceState(null,'',u)}document.querySelectorAll('[data-set-theme]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.setTheme===theme)))};
-  apply(active);
+  if (!document.body.classList.contains('home')) return;
+  for (const href of ['assets/css/variants.css','assets/css/gartenschau.css']) {
+    if (!document.querySelector(`link[href="${href}"]`)) {
+      const link=document.createElement('link');link.rel='stylesheet';link.href=href;document.head.append(link);
+    }
+  }
+  const choices={pur:'01 · Pur',sand:'02 · Sand',salbei:'03 · Salbei',terracotta:'04 · Terrakotta',fjord:'05 · Fjord'};
+  const params=new URLSearchParams(location.search);let saved;
+  try{saved=localStorage.getItem('altstadt-design-v2')}catch{}
+  const apply=(key,updateUrl=false)=>{
+    document.documentElement.dataset.theme=key;
+    try{localStorage.setItem('altstadt-design-v2',key)}catch{}
+    document.querySelectorAll('[data-set-theme]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.setTheme===key)));
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content','#ffffff');
+    if(updateUrl){const u=new URL(location.href);u.searchParams.set('theme',key);history.replaceState(null,'',u)}
+  };
   const preview=location.hostname.includes('github.io')||['localhost','127.0.0.1'].includes(location.hostname)||location.protocol==='file:';
-  if(!preview)return;
-  const box=document.createElement('aside');box.className='theme-preview';box.setAttribute('aria-label','Farbvarianten für die Kundenabstimmung');box.innerHTML='<div class="theme-preview__top"><strong>Farbwelt auswählen</strong><span>Live-Vorschau</span></div><div class="theme-preview__options">'+Object.entries(themes).map(([k,v])=>`<button type="button" data-set-theme="${k}">${v.label}</button>`).join('')+'</div>';document.body.append(box);box.addEventListener('click',e=>{const b=e.target.closest('[data-set-theme]');if(b)apply(b.dataset.setTheme,true)});apply(active);
+  if(!preview){apply(choices[params.get('theme')]?params.get('theme'):(choices[saved]?saved:'pur'));return;}
+  const box=document.createElement('details');box.className='theme-preview';box.open=innerWidth>600;
+  box.innerHTML='<summary>Designvarianten ansehen</summary><div class="theme-preview__options">'+Object.entries(choices).map(([k,v])=>`<button type="button" data-set-theme="${k}">${v}</button>`).join('')+'</div><small>Drei helle Klassiker · zwei farbigere Entwürfe</small>';
+  document.body.append(box);
+  box.addEventListener('click',e=>{const b=e.target.closest('[data-set-theme]');if(b)apply(b.dataset.setTheme,true)});
+  apply(choices[params.get('theme')]?params.get('theme'):(choices[saved]?saved:'pur'));
 })();
