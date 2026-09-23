@@ -1,0 +1,9 @@
+AltstadtApartments – Hero-Varianten für Herrn Stollenmeier
+
+Dateien:
+- index.html = Variante 01 Bildbühne / großes Hintergrundbild
+- hero-variante-02.html = Variante 02 Split / Text plus zwei gleichwertige Bilder
+- hero-variante-03.html = Variante 03 Editorial / Bild links, Text mittig, Bild rechts
+
+Alle drei Varianten nutzen die gleiche restliche Website.
+Die Geometrie der Hero-Bereiche ist gegen die fünf Farbvarianten stabilisiert, damit Salbei, Fjord, Terrakotta, Sand und Pur keine Texte oder Buttons mehr verschieben.
