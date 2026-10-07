@@ -1,0 +1,16 @@
+NEUE DINKELSBUEHL-BILDER – ZUORDNUNG
+
+Die von dir bereitgestellten JPG-Dateien wurden nur technisch optimiert (WebP + responsive Groessen) und in assets/img/dinkelsbuehl-neu/ eingebaut.
+
+1) dominik-kempf-3OgoTitvulU-unsplash.jpg -> stadtmauer-fruehling-*
+   Einsatz: Startseiten-Hero + Abendsektion Dinkelsbuehl
+2) dominik-kempf-4I-FIpX0vw4-unsplash.jpg -> stadtmauer-wasser-*
+   Einsatz: Startseiten-Stadtgalerie + Dinkelsbuehl-Seite
+3) pexels-sabine-freiberger-528844081-26612895.jpg -> stadtmauer-turm-*
+   Einsatz: Startseiten-Stadtgalerie + Dinkelsbuehl-Seite
+4) Dinkelsbühl, der Marktplatz, Blick in die Segringer Straße.jpg -> marktplatz-segringer-strasse-*
+   Einsatz: Dinkelsbuehl-Hero + Startseiten-Stadtgalerie
+5) Kinderzeche ... Stadtübergabe ...jpg -> kinderzeche-stadtuebergabe-*
+   Einsatz: Kinderzeche-Sektion
+
+WICHTIG: Lizenz-/Nutzungsnachweise der Originaldateien separat aufbewahren.

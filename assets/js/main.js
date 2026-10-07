@@ -1,5 +1,6 @@
 (() => {
   'use strict';
+  const isEnglish = document.documentElement.lang === 'en';
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
@@ -12,7 +13,7 @@
     if (!menu || !menuButton) return;
     menu.hidden = true;
     menuButton.setAttribute('aria-expanded', 'false');
-    menuButton.setAttribute('aria-label', 'Menü öffnen');
+    menuButton.setAttribute('aria-label', (isEnglish ? 'Open menu' : 'Menü öffnen'));
     updateLock();
     if (focus) menuButton.focus();
   }
@@ -20,7 +21,7 @@
     if (!menu.hidden) return closeMenu();
     menu.hidden = false;
     menuButton.setAttribute('aria-expanded', 'true');
-    menuButton.setAttribute('aria-label', 'Menü schließen');
+    menuButton.setAttribute('aria-label', (isEnglish ? 'Close menu' : 'Menü schließen'));
     updateLock();
     if (!reducedMotion.matches && menu.animate) menu.animate([{opacity:0,transform:'translateY(-8px)'},{opacity:1,transform:'none'}],{duration:220,easing:'ease-out'});
   });
@@ -36,7 +37,7 @@
     }
   });
   document.addEventListener('click', e => {if (menu?.hidden === false && !header.contains(e.target)) closeMenu();});
-  matchMedia('(min-width: 951px)').addEventListener('change', e => {if (e.matches) closeMenu();});
+  matchMedia('(min-width: 1151px)').addEventListener('change', e => {if (e.matches) closeMenu();});
   $$('[data-year]').forEach(el => {el.textContent = new Date().getFullYear();});
   let scheduled = 0;
   const hero = $('.hero-main-photo');
@@ -69,8 +70,13 @@
   if (!links.length || typeof HTMLDialogElement === 'undefined') return;
   dialog = document.createElement('dialog');
   dialog.className = 'photo-dialog';
-  dialog.setAttribute('aria-label','Apartment-Fotogalerie');
+  dialog.setAttribute('aria-label',isEnglish ? 'Apartment photo gallery' : 'Apartment-Fotogalerie');
   dialog.innerHTML = '<div class="photo-dialog-inner"><div class="photo-dialog-top"><span data-photo-count aria-live="polite"></span><button class="photo-close" type="button" aria-label="Galerie schließen">×</button></div><div class="photo-stage"><button class="photo-prev" type="button" aria-label="Vorheriges Bild">←</button><img alt=""><button class="photo-next" type="button" aria-label="Nächstes Bild">→</button></div><p class="photo-caption" aria-live="polite"></p></div>';
+  if (isEnglish) {
+    dialog.querySelector('.photo-close').setAttribute('aria-label','Close gallery');
+    dialog.querySelector('.photo-prev').setAttribute('aria-label','Previous photo');
+    dialog.querySelector('.photo-next').setAttribute('aria-label','Next photo');
+  }
   document.body.append(dialog);
   const photo = $('.photo-stage img',dialog), caption = $('.photo-caption',dialog), count = $('[data-photo-count]',dialog);
   const previous = $('.photo-prev',dialog), next = $('.photo-next',dialog);
@@ -88,8 +94,10 @@
     if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
     e.preventDefault();
     trigger = link;
-    current = links.filter(item => item.dataset.gallery === link.dataset.gallery);
-    showImage(current.indexOf(link));
+    const groupLinks = links.filter(item => item.dataset.gallery === link.dataset.gallery);
+    const galleryTiles = groupLinks.filter(item => item.classList.contains('gallery-item'));
+    current = (galleryTiles.length ? galleryTiles : groupLinks).filter((item, position, group) => group.findIndex(other => other.href === item.href) === position);
+    showImage(current.findIndex(item => item.href === link.href));
     dialog.showModal();
     updateLock();
     $('.photo-close',dialog).focus();
@@ -110,12 +118,4 @@
     touchStart = null;
   },{passive:true});
   dialog.addEventListener('close',() => {updateLock();trigger?.focus({preventScroll:true});});
-})();
-
-;(() => {
-const choices={pur:'01 · Pur',sand:'02 · Sand',salbei:'03 · Salbei',terracotta:'04 · Terrakotta',fjord:'05 · Fjord'};
-const params=new URLSearchParams(location.search);let saved;try{saved=localStorage.getItem('altstadt-design-v2')}catch{}
-const apply=(key)=>{document.documentElement.dataset.theme=key;try{localStorage.setItem('altstadt-design-v2',key)}catch{};document.querySelectorAll('[data-set-theme]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.setTheme===key)));document.querySelector('meta[name="theme-color"]')?.setAttribute('content','#ffffff');};
-const box=document.createElement('details');box.className='theme-preview';box.open=innerWidth>600;box.innerHTML='<summary>Designvarianten ansehen</summary><div class="theme-preview__options">'+Object.entries(choices).map(([k,v])=>`<button type="button" data-set-theme="${k}">${v}</button>`).join('')+'</div><small>Drei helle Klassiker · zwei farbigere Entwürfe</small>';document.body.append(box);
-box.addEventListener('click',e=>{const b=e.target.closest('[data-set-theme]');if(b)apply(b.dataset.setTheme)});apply(choices[params.get('theme')]?params.get('theme'):(choices[saved]?saved:'pur'));
 })();

@@ -1,0 +1,1270 @@
+{
+  "altstadt": [
+    {
+      "slug": "altstadt-living-10",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/altstadt-living-10-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/altstadt-living-10-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/altstadt-living-10-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/altstadt-living-10-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Wohnzimmer/IMG_7412.jpeg",
+      "hash": "94e050193f404799eec0157b59a0b1a0f658ebbd94ae1c7541909790f359f151",
+      "id": 10,
+      "room": "living",
+      "apartment": "altstadt"
+    },
+    {
+      "slug": "altstadt-living-11",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/altstadt-living-11-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/altstadt-living-11-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/altstadt-living-11-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/altstadt-living-11-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Wohnzimmer/IMG_7413.jpeg",
+      "hash": "0fe4442fd284b4e19fff136c961c89b4219f5026a3c9bbfd3f521cde6fb346bb",
+      "id": 11,
+      "room": "living",
+      "apartment": "altstadt"
+    },
+    {
+      "slug": "altstadt-living-12",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/altstadt-living-12-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/altstadt-living-12-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/altstadt-living-12-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/altstadt-living-12-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Wohnzimmer/IMG_7410.JPG",
+      "hash": "915b4a176b3daa33d3780e06b0b044feadf4ba9e4c826769483aa5e49fd010bc",
+      "id": 12,
+      "room": "living",
+      "apartment": "altstadt"
+    },
+    {
+      "slug": "altstadt-living-13",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/altstadt-living-13-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/altstadt-living-13-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/altstadt-living-13-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/altstadt-living-13-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Wohnzimmer/Wohnzimmer.JPG",
+      "hash": "915f66705673e8c372826e34a1d0b52fb9565f6d84c34a78a03ddccb93d0b1d9",
+      "id": 13,
+      "room": "living",
+      "apartment": "altstadt"
+    },
+    {
+      "slug": "altstadt-living-14",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/altstadt-living-14-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/altstadt-living-14-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/altstadt-living-14-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/altstadt-living-14-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Wohnzimmer/IMG_7357.jpeg",
+      "hash": "59ffec746811ac38ce58cb22fcd24b0763ab3b57744ce4ddd933581a1131351f",
+      "id": 14,
+      "room": "living",
+      "apartment": "altstadt"
+    },
+    {
+      "slug": "altstadt-living-16",
+      "original": [
+        576,
+        768
+      ],
+      "full": "assets/img/apartments/altstadt-living-16-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/altstadt-living-16-480.webp",
+          "width": 480,
+          "height": 640
+        },
+        {
+          "path": "assets/img/apartments/altstadt-living-16-960.webp",
+          "width": 576,
+          "height": 768
+        }
+      ],
+      "source": "Wohnzimmer/Bild.jpeg",
+      "hash": "5fd6dfa3d57fb0ae11ddbd1fb39871dc02c733255abe915e89e47dd41f38da10",
+      "id": 16,
+      "room": "living",
+      "apartment": "altstadt"
+    },
+    {
+      "slug": "altstadt-kitchen-06",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/altstadt-kitchen-06-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/altstadt-kitchen-06-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/altstadt-kitchen-06-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/altstadt-kitchen-06-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Küche/IMG_7415.jpeg",
+      "hash": "f49e09dfb7e0f081c49ed1043d03e3b2c3e5b3e951ef0ae944537688eec040d1",
+      "id": 6,
+      "room": "kitchen",
+      "apartment": "altstadt"
+    },
+    {
+      "slug": "altstadt-bedroom-07",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/altstadt-bedroom-07-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/altstadt-bedroom-07-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/altstadt-bedroom-07-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/altstadt-bedroom-07-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Schlafzimmer/IMG_7350 2.JPG",
+      "hash": "66bcdb007ddfcfba435341365a8c1fe52f3a91ee422da523e3c538ab9426c99b",
+      "id": 7,
+      "room": "bedroom",
+      "apartment": "altstadt"
+    },
+    {
+      "slug": "altstadt-bedroom-08",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/altstadt-bedroom-08-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/altstadt-bedroom-08-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/altstadt-bedroom-08-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/altstadt-bedroom-08-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Schlafzimmer/IMG_7353.jpeg",
+      "hash": "13a3bc435232756f1525b50725cc3846bd4caf53a607b33d22be84bc3a7b1a7c",
+      "id": 8,
+      "room": "bedroom",
+      "apartment": "altstadt"
+    },
+    {
+      "slug": "altstadt-bedroom-09",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/altstadt-bedroom-09-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/altstadt-bedroom-09-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/altstadt-bedroom-09-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/altstadt-bedroom-09-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Schlafzimmer/IMG_7351.jpeg",
+      "hash": "0a960a0ff4b888a9e329c8fa03567fe50a988eb5ba07af7d29305cd63c930b41",
+      "id": 9,
+      "room": "bedroom",
+      "apartment": "altstadt"
+    },
+    {
+      "slug": "altstadt-bath-01",
+      "original": [
+        576,
+        768
+      ],
+      "full": "assets/img/apartments/altstadt-bath-01-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/altstadt-bath-01-480.webp",
+          "width": 480,
+          "height": 640
+        },
+        {
+          "path": "assets/img/apartments/altstadt-bath-01-960.webp",
+          "width": 576,
+          "height": 768
+        }
+      ],
+      "source": "Bad/Bild 5.jpeg",
+      "hash": "c8486fd5952f7f091600b9c917ab10871e7eb67cc32e129f2fa79189afdcdb5a",
+      "id": 1,
+      "room": "bath",
+      "apartment": "altstadt"
+    },
+    {
+      "slug": "altstadt-bath-02",
+      "original": [
+        576,
+        768
+      ],
+      "full": "assets/img/apartments/altstadt-bath-02-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/altstadt-bath-02-480.webp",
+          "width": 480,
+          "height": 640
+        },
+        {
+          "path": "assets/img/apartments/altstadt-bath-02-960.webp",
+          "width": 576,
+          "height": 768
+        }
+      ],
+      "source": "Bad/Bild 6 (2).jpeg",
+      "hash": "873ce1298908581035d2e1c5316b30b7aaa273386f283f1679c661a091f6a4b8",
+      "id": 2,
+      "room": "bath",
+      "apartment": "altstadt"
+    },
+    {
+      "slug": "altstadt-entrance-03",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/altstadt-entrance-03-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/altstadt-entrance-03-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/altstadt-entrance-03-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/altstadt-entrance-03-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Einagang/IMG_7416.jpeg",
+      "hash": "73522fccfd4510898172c4736764594b6dfe5c795d2dc97d5a03a69831b0eb0c",
+      "id": 3,
+      "room": "entrance",
+      "apartment": "altstadt"
+    },
+    {
+      "slug": "altstadt-entrance-05",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/altstadt-entrance-05-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/altstadt-entrance-05-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/altstadt-entrance-05-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/altstadt-entrance-05-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Einagang/IMG_7417.JPG",
+      "hash": "5bb45957a9645d89b820369db497df81a7ed24f43b2ea714275f097537c20bf2",
+      "id": 5,
+      "room": "entrance",
+      "apartment": "altstadt"
+    },
+    {
+      "slug": "altstadt-view-04",
+      "original": [
+        2523,
+        2487
+      ],
+      "full": "assets/img/apartments/altstadt-view-04-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/altstadt-view-04-480.webp",
+          "width": 480,
+          "height": 473
+        },
+        {
+          "path": "assets/img/apartments/altstadt-view-04-960.webp",
+          "width": 960,
+          "height": 946
+        },
+        {
+          "path": "assets/img/apartments/altstadt-view-04-full.webp",
+          "width": 2048,
+          "height": 2019
+        }
+      ],
+      "source": "Einagang/Ansicht aus dem Fenster auf das Nördlinger Tor.JPG",
+      "hash": "b63415075bb30b672e993fb1468b0f2122c3cb550579821e3445faca42e3c15d",
+      "id": 4,
+      "room": "view",
+      "apartment": "altstadt"
+    }
+  ],
+  "night": {
+    "slug": "dinkelsbuehl-bei-nacht",
+    "original": [
+      1600,
+      1200
+    ],
+    "full": "assets/img/apartments/dinkelsbuehl-bei-nacht-full.webp",
+    "variants": [
+      {
+        "path": "assets/img/apartments/dinkelsbuehl-bei-nacht-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "assets/img/apartments/dinkelsbuehl-bei-nacht-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "assets/img/apartments/dinkelsbuehl-bei-nacht-full.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "source": "Dinkelsbühl bei Nacht.JPG",
+    "hash": "d8a21801355b47ac09c6e5e8d2730dc4f951998524fa4fc682de4af1b807d81a"
+  },
+  "portrait": {
+    "slug": "portraet-zur-zuordnung",
+    "original": [
+      712,
+      958
+    ],
+    "full": "assets/img/apartments/portraet-zur-zuordnung-full.webp",
+    "variants": [
+      {
+        "path": "assets/img/apartments/portraet-zur-zuordnung-480.webp",
+        "width": 480,
+        "height": 646
+      },
+      {
+        "path": "assets/img/apartments/portraet-zur-zuordnung-960.webp",
+        "width": 712,
+        "height": 958
+      }
+    ],
+    "source": "8f0d0e1b-6052-4f5e-8410-19dc2a7259fd.jpg",
+    "hash": "37f7589c918a7b71e979bf12927cdf2c3a4ae29f0626f514e3a8eb06ba7b0f30"
+  },
+  "design": [
+    {
+      "slug": "design-living-16",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-living-16-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-living-16-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-living-16-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-living-16-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Wohnzimmer/IMG_7425.JPG",
+      "hash": "883b25129d33b2f06953727d19a6dd5672e554c548f0cb8bb3abf55d9b2fdd96",
+      "id": 16,
+      "room": "living",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-living-17",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-living-17-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-living-17-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-living-17-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-living-17-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Wohnzimmer/IMG_7424.JPG",
+      "hash": "1bbf6a129b4fa2c93000cd55d41e84555c9f00086ce84a3d5f3027dfbc136528",
+      "id": 17,
+      "room": "living",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-living-18",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-living-18-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-living-18-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-living-18-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-living-18-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Wohnzimmer/IMG_7426.JPG",
+      "hash": "0d4838602bb4ffacd8715751ba53f437925e16a190c3cc33461cf4cd6207228a",
+      "id": 18,
+      "room": "living",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-living-19",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-living-19-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-living-19-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-living-19-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-living-19-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Wohnzimmer/IMG_7427.JPG",
+      "hash": "8f16fb9bf1c4f96079d7eb056dbf2112611da4129bdb9a82733e0f1376369577",
+      "id": 19,
+      "room": "living",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-living-20",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-living-20-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-living-20-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-living-20-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-living-20-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Wohnzimmer/IMG_7349.jpeg",
+      "hash": "32f98f28ed1642604a6fab78918d188cb5a47e0104c59b080e65e7523e6e3716",
+      "id": 20,
+      "room": "living",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-living-21",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-living-21-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-living-21-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-living-21-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-living-21-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Wohnzimmer/IMG_7347.jpeg",
+      "hash": "9411d45cf4405c3d3fb5a1bd99f6570d96de75853ffdf133d0b5cec7987b1bee",
+      "id": 21,
+      "room": "living",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-living-22",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-living-22-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-living-22-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-living-22-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-living-22-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Wohnzimmer/IMG_7428.JPG",
+      "hash": "b8d9ebbbe62af09a8bff6c2906cd561c0b36804a1c5cfd8c4d0ba2418f70ad08",
+      "id": 22,
+      "room": "living",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-living-31",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-living-31-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-living-31-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-living-31-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-living-31-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "IMG_7348.JPG",
+      "hash": "f0bc247a3a806098e2e60e2d75e4e21f917be576bc1b844b694d053a97f075bd",
+      "id": 31,
+      "room": "living",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-kitchen-05",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-kitchen-05-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-kitchen-05-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-kitchen-05-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-kitchen-05-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Küche/IMG_7420.jpeg",
+      "hash": "c7e3c8be69c53e37f957ba894d93c3fd01265c06edd4afb0e83bdabaf652064d",
+      "id": 5,
+      "room": "kitchen",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-kitchen-06",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-kitchen-06-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-kitchen-06-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-kitchen-06-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-kitchen-06-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Küche/IMG_7422.JPG",
+      "hash": "798f70c34f6f828b71cc3e08e3be04d7fb0902b6e0e561a1857c780e3738bdc1",
+      "id": 6,
+      "room": "kitchen",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-kitchen-08",
+      "original": [
+        3024,
+        4032
+      ],
+      "full": "assets/img/apartments/design-kitchen-08-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-kitchen-08-480.webp",
+          "width": 480,
+          "height": 640
+        },
+        {
+          "path": "assets/img/apartments/design-kitchen-08-960.webp",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "path": "assets/img/apartments/design-kitchen-08-full.webp",
+          "width": 1536,
+          "height": 2048
+        }
+      ],
+      "source": "Küche/IMG_7217.jpeg",
+      "hash": "2de3da9ab7ccd94fbd6a90a7ee4029165eded920d58b08d61bf35588f4faface",
+      "id": 8,
+      "room": "kitchen",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-kitchen-10",
+      "original": [
+        3024,
+        4032
+      ],
+      "full": "assets/img/apartments/design-kitchen-10-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-kitchen-10-480.webp",
+          "width": 480,
+          "height": 640
+        },
+        {
+          "path": "assets/img/apartments/design-kitchen-10-960.webp",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "path": "assets/img/apartments/design-kitchen-10-full.webp",
+          "width": 1536,
+          "height": 2048
+        }
+      ],
+      "source": "Küche/IMG_7217.JPG",
+      "hash": "0cfd6db99299786bbdf974efca684e9a540999404f6e02fe34a07ebfb700f6f5",
+      "id": 10,
+      "room": "kitchen",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-kitchen-25",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-kitchen-25-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-kitchen-25-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-kitchen-25-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-kitchen-25-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "IMG_7342.JPG",
+      "hash": "99c8832d2ddc906b37cc8ca73720c346dc5f35dae995e8cf7d1ca978ec1b407c",
+      "id": 25,
+      "room": "kitchen",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-kitchen-26",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-kitchen-26-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-kitchen-26-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-kitchen-26-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-kitchen-26-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "IMG_7343.JPG",
+      "hash": "60fc172b447261be74a5b141e1352a00b9c062227b02809e9f795e325d9c75a4",
+      "id": 26,
+      "room": "kitchen",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-kitchen-27",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-kitchen-27-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-kitchen-27-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-kitchen-27-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-kitchen-27-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "IMG_7344.JPG",
+      "hash": "4154a8f68193d9400cc2102775a521c4b2ce1941c063c14991f848b7e8d8d830",
+      "id": 27,
+      "room": "kitchen",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-kitchen-28",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-kitchen-28-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-kitchen-28-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-kitchen-28-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-kitchen-28-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "IMG_7345.JPG",
+      "hash": "2adc35dccf497a044b7e952c12e75d7ffe8d65fba0b4961746d485e0a9504a25",
+      "id": 28,
+      "room": "kitchen",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-bedroom-11",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-bedroom-11-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-bedroom-11-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-bedroom-11-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-bedroom-11-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Schlafzimmer 1/IMG_7122.JPG",
+      "hash": "dee6cdf20cb1c3b9b657dd0eeb96e787fba193cd2fb55e7f3486109663018668",
+      "id": 11,
+      "room": "bedroom",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-bedroom-12",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-bedroom-12-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-bedroom-12-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-bedroom-12-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-bedroom-12-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Schlafzimmer 1/IMG_7121.JPG",
+      "hash": "c3801e1b7e2f5de965881c1110588b4a98f840bfd9a1ae9c23e1ba6f0f2a828a",
+      "id": 12,
+      "room": "bedroom",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-bedroom-13",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-bedroom-13-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-bedroom-13-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-bedroom-13-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-bedroom-13-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Schlafzimmer 2/Schlafzimmer 2.JPG",
+      "hash": "247afafe8a772fd368d8766f04efe73aa45f12f0583f6eef3af4d23c83a48aba",
+      "id": 13,
+      "room": "bedroom",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-bedroom-14",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-bedroom-14-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-bedroom-14-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-bedroom-14-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-bedroom-14-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Schlafzimmer 2/IMG_7206.JPG",
+      "hash": "1622c5f388d39938502d1fa92d4ab0d0aa09dde754212521c5c5891d4ab7aa70",
+      "id": 14,
+      "room": "bedroom",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-bedroom-15",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-bedroom-15-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-bedroom-15-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-bedroom-15-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-bedroom-15-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Schlafzimmer 3/IMG_7141.JPG",
+      "hash": "14c4f9f165a71e42ac179890b108cb63f4f1ea1a0ab6f857c127b13b4e3b9ed4",
+      "id": 15,
+      "room": "bedroom",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-bedroom-29",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-bedroom-29-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-bedroom-29-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-bedroom-29-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-bedroom-29-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "IMG_7346.JPG",
+      "hash": "bd442fb3a348c1b37c6a9fe0d573f5a388cd3586b02082bc7216e94e838bc24a",
+      "id": 29,
+      "room": "bedroom",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-bath-01",
+      "original": [
+        3024,
+        4032
+      ],
+      "full": "assets/img/apartments/design-bath-01-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-bath-01-480.webp",
+          "width": 480,
+          "height": 640
+        },
+        {
+          "path": "assets/img/apartments/design-bath-01-960.webp",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "path": "assets/img/apartments/design-bath-01-full.webp",
+          "width": 1536,
+          "height": 2048
+        }
+      ],
+      "source": "Bad/IMG_7114.JPG",
+      "hash": "fb0e6d733d1e11578a05cf68cf840569f9e2c0f34878bf190015e9de5ed94034",
+      "id": 1,
+      "room": "bath",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-entrance-02",
+      "original": [
+        3024,
+        4032
+      ],
+      "full": "assets/img/apartments/design-entrance-02-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-entrance-02-480.webp",
+          "width": 480,
+          "height": 640
+        },
+        {
+          "path": "assets/img/apartments/design-entrance-02-960.webp",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "path": "assets/img/apartments/design-entrance-02-full.webp",
+          "width": 1536,
+          "height": 2048
+        }
+      ],
+      "source": "Eingangsbereich/IMG_7418.JPG",
+      "hash": "d12c2ba1d6c19fafd9147a5635b200be32ec5e45963c921258f867643793d1d4",
+      "id": 2,
+      "room": "entrance",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-entrance-03",
+      "original": [
+        4032,
+        3024
+      ],
+      "full": "assets/img/apartments/design-entrance-03-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-entrance-03-480.webp",
+          "width": 480,
+          "height": 360
+        },
+        {
+          "path": "assets/img/apartments/design-entrance-03-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "assets/img/apartments/design-entrance-03-full.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "source": "Eingangsbereich/IMG_7124.JPG",
+      "hash": "a98e834f9789f05e45614e1c131fb195f1b1702f2de906e937090c7f4319b90b",
+      "id": 3,
+      "room": "entrance",
+      "apartment": "design"
+    },
+    {
+      "slug": "design-entrance-04",
+      "original": [
+        3024,
+        4032
+      ],
+      "full": "assets/img/apartments/design-entrance-04-full.webp",
+      "variants": [
+        {
+          "path": "assets/img/apartments/design-entrance-04-480.webp",
+          "width": 480,
+          "height": 640
+        },
+        {
+          "path": "assets/img/apartments/design-entrance-04-960.webp",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "path": "assets/img/apartments/design-entrance-04-full.webp",
+          "width": 1536,
+          "height": 2048
+        }
+      ],
+      "source": "Eingangsbereich/IMG_7418.jpeg",
+      "hash": "7e223c5d8e397248f74f1f1249a057fb70e07719fb9b67a69e53d07df83c93dd",
+      "id": 4,
+      "room": "entrance",
+      "apartment": "design"
+    }
+  ]
+}
