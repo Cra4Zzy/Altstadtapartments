@@ -22,3 +22,16 @@ Die beiden Wikimedia-Commons-Bilder benötigen eine Attribution. Die erforderlic
 - pexels-sabine-freiberger-528844081-26612895.jpg
 
 Die Originaldateinamen wurden in BILDQUELLEN-NEU.txt den optimierten Website-Dateien zugeordnet. Lizenz-/Downloadnachweise der Originalquellen bitte separat aufbewahren.
+
+
+
+## Events (8. Oktober 2026)
+- Summer Breeze: Sven Mandel, Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Festivalgel%C3%A4nde_2016232182038_2016-08-19_Summer_Breeze_-_Sven_-_5DS_R_-_0084_-_5DSR7965_mod.jpg
+  Lizenz: https://creativecommons.org/licenses/by-sa/4.0/ . WebP-Exporte verkleinert; CSS-Beschnitt. Bearbeitete Bildfassungen weiterhin CC BY-SA 4.0. Foto von 2016.
+- Kinderzeche: bestehendes Bild von Jan Czeczotka, Wikimedia Commons, CC BY-SA 4.0; siehe vorhandene Nachweise.
+- Hero und Weihnachtsmarkt: vom Auftraggeber bereitgestellte, zuvor mit KI bearbeitete Bilddateien. Keine zusätzliche Nutzungslizenz durch die Bearbeitung; Lizenznachweis der Originalfotos muss beim Betreiber verbleiben.
+
+## Eventquellen
+- https://www.tourismus-dinkelsbuehl.de/events-erlebnis/weihnachtsmarkt
+- https://www.kinderzeche.de/termine-der-kinderzeche/
+- https://www.summer-breeze.de/de/
