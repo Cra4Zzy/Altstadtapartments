@@ -13,5 +13,5 @@
 
 @media(max-width:1300px){.desktop-nav{display:none}.menu-button{display:flex}}
 
-/* Vier terminierte Veranstaltungen: 4 Spalten auf Desktop, 2 auf Tablet. */
+/* Vier Event-Highlights: 4 Spalten auf Desktop, 2 auf Tablet. */
 @media (min-width:761px) and (max-width:1180px){.event-preview-grid,.event-jumps{grid-template-columns:repeat(2,minmax(0,1fr))}.event-jumps>a:nth-child(3){border-left:0;border-top:1px solid var(--line)}.event-jumps>a:nth-child(4){border-top:1px solid var(--line)}}
